@@ -1,7 +1,0 @@
-{
-  "name": "SO Tag Count",
-  "attributes": [
-    { "name": "name", "type": "string" },
-    { "name": "count", "type": "int" }
-  ]
-}

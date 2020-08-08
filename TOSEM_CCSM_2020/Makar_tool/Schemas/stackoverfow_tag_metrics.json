@@ -1,0 +1,11 @@
+{
+  "name": "SO Tag metrics",
+  "attributes": [
+    { "name": "name", "type": "string" },
+    { "name": "a", "type": "int" },
+    { "name": "b", "type": "int" },
+    { "name": "c", "type": "int" },
+    { "name": "h1", "type": "string" },
+    { "name": "h2", "type": "string" }
+  ]
+}

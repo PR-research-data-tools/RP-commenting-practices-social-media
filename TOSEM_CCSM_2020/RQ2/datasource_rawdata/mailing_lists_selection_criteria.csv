@@ -1,0 +1,26 @@
+"Project","Language","LOC","#Mail on dev ML","Committers"
+"netbeans","java",5045390,17708,70
+"hive","java",1434360,141254,89
+"lucene","java",1304057,356219,
+"camel","java",1296083,58667,70
+"geode","java",1281664,33042,107
+"openoffice","c++",4808595,133316,141
+"mynewt-core","c++",2087923,5193,33
+"trafodion","c++",1522771,6256,24
+"pagespeed","c++",402930,3082,
+"mesos","c++",375979,47676,
+"cloudstack","python",228358,107756,121
+"airflow","python",163300,10703,
+"airavata","python",149739,16178,
+"libcloud","python",138061,10118,
+"mxnet","python",137862,6881,
+"mynewt-core","c",764749,5193,
+"hawq","c",738435,7950,68
+"subversion","c",418951,39149,85
+"nifi","c",228096,20544,47
+"trafodion","c",226061,6256,
+"pagespeed","javascript",394010,3082,
+"ambari","javascript",344421,104065,106
+"stratos","javascript",282740,24320,
+"cordova","javascript",194216,146142,102
+"cloudstack","javascript",173067,107756,

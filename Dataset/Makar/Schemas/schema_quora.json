@@ -1,9 +1,0 @@
-{
-  "name": "Quora",
-  "attributes": [
-    { "name": "url", "type": "string" },
-    { "name": "topics", "type": "string" },
-    { "name": "question", "type": "string" },
-    { "name": "answers", "type": "string", "multiple": true }
-    ]
-}
