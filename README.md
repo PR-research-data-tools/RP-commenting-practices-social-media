@@ -48,32 +48,32 @@ RQ2/
 ---
 **Makar_tool/** contains the data processed using the tool for the study
 - **Data/**
-     - `stackoverfow_questions_with_answers_by_tags.csv` - 
-    - `stackoverfow_tags_metrics.csv` - 
-    - `apache_mailing_list.csv` - 
-    - `mailing_lists_ASF_@dev_@users_1.csv` - 
-    - `mailing_lists_ASF_@dev_@users_2.csv` - 
-    - `quora.csv` - 
-    - `sample_stackoverfow_questions_with_answers_by_tags` - 
+     - `stackoverfow_questions_with_answers_by_tags.csv` - all stackoverflow questions used in the study as stored in Makar
+    - `stackoverfow_tags_metrics.csv` - all data containing the calculations done for stackoverflow tag selection
+    - `apache_mailing_list.csv` - statistically significant sample of `mailing_lists_ASF_@dev_@users_1.csv` and `mailing_lists_ASF_@dev_@users_2.csv` used in the study
+    - `mailing_lists_ASF_@dev_@users_1.csv` - mailing list data used in the study as stored in Makar (part 1)
+    - `mailing_lists_ASF_@dev_@users_2.csv` - mailing list data used in the study as stored in Makar (part 2)
+    - `quora.csv` - all quora questions used in the study as stored in Makar
+    - `sample_stackoverfow_questions_with_answers_by_tags` - statistically significant sample of `stackoverfow_questions_with_answers_by_tags.csv` used in the study
 
 - **Schemas/**
-    - `apache_mailing_lists.json`
-    - `quora.json`
-    - `stackoverfow_questions_answers_by_tag.json`
-    - `stackoverfow_tag_count.json`
-    - `stackoverfow_tag_metrics.json`
+    - `apache_mailing_lists.json` - data schema used in Makar to store mailing list data
+    - `quora.json` - data schema used in Makar to store quora data
+    - `stackoverfow_questions_answers_by_tag.json` - data schema used in Makar to store stackoverflow questions data
+    - `stackoverfow_tag_count.json` - data schema used in Makar to lookup number of questions per tag available in stackoverflow
+    - `stackoverfow_tag_metrics.json` - data schema used in Makar to stackoverflow tag metrics data
 
 - **RQ1/** - contains the data used to answer RQ1
  - **LDA_input/** - input data used for LDA analysis
-    - `stackoverfow_raw_dataset.csv` stackoverflow questions used to perform LDA analysis
+    - `stackoverfow_raw_dataset.csv` - stackoverflow questions used to perform LDA analysis
  - **LDA_output/**
     - **Mallet/**
          - **output_csv/**
-            - `docs-in-topics.csv` - 
-            - `topic-words.csv` - 
-            - `topics-in-docs.csv` - 
-            - `topics-metadata.csv` - 
-        - **output_html/**
+            - `docs-in-topics.csv` - documents per topic
+            - `topic-words.csv` - most relevant topic words
+            - `topics-in-docs.csv` - topic probability per document
+            - `topics-metadata.csv` - metadata per document and topic probability
+        - **output_html/** - Browsable results of mallet output
             - `all_topics.html`
             - `Docs/`
             - `Topics/`
