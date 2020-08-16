@@ -3,6 +3,8 @@ Replication package for the paper "What do Developers Discuss about Code Comment
 
 ## Structure
 ```
+Paper-presenation.pdf
+
 Makar_tool/
     Data/
     	stackoverfow_questions_with_answers_by_tags.csv
@@ -46,6 +48,8 @@ RQ2/
 
 ## Contents of the Replication Package
 ---
+**Paper-presenation.pdf** presents the highlights of the work in a presenation. 
+
 **Makar_tool/** contains the data processed using the tool for the study
 - **Data/**
      - `stackoverfow_questions_with_answers_by_tags.csv` - all stackoverflow questions used in the study as stored in Makar
